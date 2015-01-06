@@ -1,0 +1,19 @@
+Part3 (4 points) - Types
+
+since y = 1 would return Unit() in scala,then
+x = y = 1 would make sense if x is a Unit() type.
+
+See the code below:
+
+scala> var x:Unit = {}
+x: Unit = ()
+
+scala> var y = 0
+y: Int = 0
+
+scala> x=y=1
+x: Unit = ()
+
+scala>
+
+Thus, there’s no error or exception in this case.
